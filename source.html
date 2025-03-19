@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resource - Hub</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/icon 2.svg">
+    <!-- animate css -->
+    <link rel="stylesheet" href="assets/css/plugins/animate.min.css">
+    <!-- fontawesome 6.4.2 -->
+    <link rel="stylesheet" href="assets/css/plugins/fontawesome.min.css">
+    <!-- bootstrap min css -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <!-- swiper Css 10.2.0 -->
+    <link rel="stylesheet" href="assets/css/plugins/swiper.min.css">
+    <!-- Bootstrap 5.0.2 -->
+    <link rel="stylesheet" href="assets/css/vendor/magnific-popup.css">
+    <!-- metismenu scss -->
+    <link rel="stylesheet" href="assets/css/vendor/metismenu.css">
+    <!-- nice select js -->
+    <link rel="stylesheet" href="assets/css/plugins/nice-select.css">
+    <link rel="stylesheet" href="assets/css/plugins/jquery-ui.css">
+    <!-- custom style css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- animate on scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+    <script>
+        var cursor = document.querySelector(".cursor");
+        var cursor2 = document.querySelector(".cursor2");
+        document.addEventListener("mousemove",function(e){
+        cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+        });
+    </script>
+    <!-- header area start -->
+    <header class="header header__sticky v__1">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="header__wrapper">
+                        <div class="header__logo">
+                            <a href="index.html" class="header__logo--link">
+                                <img src="assets/images/logo/AG.png" alt="ACREOL">
+                            </a>
+                        </div>
+                        <div class="header__menu">
+                            <div class="navigation">
+                                <nav class="navigation__menu">
+                                    <ul>
+                                        <li class="navigation__menu--item">
+                                            <a href="index.html" class="navigation__menu--item__link">Home</a>
+                                        </li>
+                                        <li class="navigation__menu--item has-child has-arrow">
+                                            <a href="#" class="navigation__menu--item__link">About us</a>
+                                            <ul class="submenu sub__style">
+                                                <li><a href="who.html">Who we are</a></li>
+                                                <li><a href="team.html">Out Team</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="navigation__menu--item has-child has-arrow">
+                                            <a href="javascript:void(0);" class="navigation__menu--item__link">Our
+                                                portfolio</a>
+                                            <ul class="submenu sub__style">
+                                                <li><a href="programs.html">Programs</a></li>
+                                                <li><a href="project.html">Projects</a></li>
+                                                <li><a href="activity.html">Activities</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="navigation__menu--item"><a href="source.html"
+                                                class="navigation__menu--item__link">Resource Hub</a>
+                                        </li>
+                                        <li class="navigation__menu--item has-child has-arrow">
+                                            <a href="#" class="navigation__menu--item__link">Careers</a>
+                                            <ul class="submenu sub__style">
+                                                <li><a href="jobs.html">Job Openings</a></li>
+                                                <li><a href="mentorship.html">Alumni & Mentorship</a></li>
+                                                <li><a href="intern.html">Internship Opportunities</a></li>
+                                                <li><a href="collaboration.html">Volunteer and Collaboration Opportunities</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="navigation__menu--item has-child has-arrow">
+                                            <a href="javascript:void(0);" class="navigation__menu--item__link">Events & Media Center</a>
+                                            <ul class="submenu sub__style">
+                                                <li><a href="event.html">Upcoming Events</a></li>
+                                                <li><a href="#">Past Events</a></li>
+                                                <li class="has-child has-arrow">
+                                                    <a href="#">Media Center</a>
+                                                    <ul class="sub__style">
+                                                        <li><a class="mobile-menu-link" href="gallery.html">Photo galleries</a></li>
+                                                        <li><a class="mobile-menu-link" href="#">Videos</a></li>
+                                                        <li><a href="#">Podcasts</a></li>
+                                                        <li class="has-child"><a href="#">News and Announcements</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="navigation__menu--item">
+                                            <a href="impact.html" class="navigation__menu--item__link">Our impact</a>
+                                        </li>
+                                        <li class="navigation__menu--item">
+                                            <a href="partnership.html" class="navigation__menu--item__link">Partnerships</a>
+                                        </li>
+
+                                        <li class="navigation__menu--item">
+                                            <a href="contact.html" class="navigation__menu--item__link">Contact us</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="header__right">
+                            <div class="header__right--item">
+                                <!-- <div id="langSwitcher" class="lang__trigger">
+                                    <span class="selected__lang">English</span>
+                                    <i class="fa-light fa-globe"></i>
+                                    <div class="translate__lang">
+                                        <ul>
+                                            <li><a href="#" class="active">English</a></li>
+                                            <li><a href="#">French</a></li>
+                                            <li><a href="#">Spanish</a></li>
+                                            <li><a href="#">Romanian</a></li>
+                                        </ul>
+                                    </div>
+                                </div> -->
+                                <!-- <div id="search-btn" class="search__trigger">
+                                    <i class="fa-sharp fa-light fa-magnifying-glass"></i>
+                                </div> -->
+                                <div id="menu-btn" class="menu__trigger">
+                                    <img src="assets/images/icon/menu-1-svgrepo-com.svg" alt="bar">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header area end -->
+
+    <!-- BREADCRUMB AREA -->
+    <section class="rts-breadcrumb breadcrumb-height breadcumb-bg"
+        style="background-image: url(assets/images/blog/blog\ \(4\).jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb-content" data-aos="zoom-in" data-aos-duration="3000">
+                        <ul class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Resource Hub</li>
+                        </ul>
+                        <h2 class="section-title">Resource Hub</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BREADCRUMB AREA END -->
+
+    <!-- campus life -->
+    <div class="rts-campus-life rts-section-padding pt--70">
+        <div class="container">
+            <div class="row">
+                <div class="campus-life">
+                    <div class="campus-life__content">
+                        <h1 class="rts-section-title" data-aos="fade-up" data-aos-duration="1000">Knowledge in End-of-Life Care</h1>
+                        <p class="description w-680" data-aos="fade-up" data-aos-duration="3000">
+                            Here, we provide access to a variety of publications, research papers, and white papers to
+                            help you stay informed on the latest findings, methodologies, and advancements in
+                            end-of-life care and palliative research.
+                        </p>
+                        <div class="campus-video" data-aos="fade-up" data-aos-duration="3000">
+                            <img src="assets/images/logo/YouTube Thumbnail (2).png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- campus life end -->
+
+    <!-- funfact -->
+
+    <div class="rts-funfact v_3 pb--50">
+        <div class="container">
+            <div class="row justify-content-center" >
+                <div class="col-lg-10 col-lg-12 col-xl-10">
+                    <div class="rts-funfact-wrapper">
+                        <div class="single-cta-item" data-aos="fade-up" data-aos-duration="1000">
+                            <h2 class="single-cta-item__title">15 Institutes</h2>
+                            <p>Cross interdisciplinary boundaries</p>
+                        </div>
+                        <div class="single-cta-item" data-aos="fade-up" data-aos-duration="2000">
+                            <h2 class="single-cta-item__title">15 Libraries</h2>
+                            <p>Hold over 500k items</p>
+                        </div>
+                        <div class="single-cta-item" data-aos="fade-up" data-aos-duration="3000">
+                            <h2 class="single-cta-item__title">$1.82 Billion</h2>
+                            <p>Sponsored research budget</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- funfact end-->
+
+    <!-- single section -->
+    <div class="rts-campus-section rts-section-padding pb-0 v_3 pt--50" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container">
+            <div class="row">
+                <div class="rts-section rt-center mb--45" data-aos="fade-up" data-aos-duration="2500">
+                    <h3 class="rts-section-title">The Research Enterprise</h3>
+                </div>
+            </div>
+            <div class="row g-5">
+                <!-- single item -->
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-item" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="single-item__content">
+                            <div class="single-item__image">
+                                <img src="assets/images/blog/blog (1).jpeg" alt="item-image">
+                            </div>
+                            <div class="single-item__meta">
+                                <h5 class="item-title"><a href="#">Research Reports</a></h5>
+                                <p class="item-description">Annual Research Reports: Comprehensive reviews of ACREOL’s
+                                    work,
+                                    collaborations, and progress in improving end-of-life care.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- single item end -->
+                <!-- single item -->
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-item" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="single-item__content">
+                            <div class="single-item__image">
+                                <img src="assets/images/blog/blog (4).jpg" alt="item-image">
+                            </div>
+                            <div class="single-item__meta">
+                                <h5 class="item-title"><a href="#">Training Materials</a></h5>
+                                <p class="item-description">Workshops & Webinars: Access recorded workshops, webinars,
+                                    and training sessions on topics such as research methodology, biostatistics, and
+                                    palliative care.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- single item end -->
+                <!-- single item -->
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-item" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="single-item__content">
+                            <div class="single-item__image">
+                                <img src="assets/images/logo/YouTube Thumbnail (3).png" alt="item-image">
+                            </div>
+                            <div class="single-item__meta">
+                                <h5 class="item-title"><a href="#">Policy Briefs & Advocacy Papers</a></h5>
+                                <p class="item-description">Documents advocating for policy change in the field of
+                                    palliative care, health equity, and access to end-of-life services.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- single item end -->
+            </div>
+        </div><br>
+    </div>
+    <!-- single section end -->
+ 
+    <!-- semister fee chart -->
+    <div class="semister-fee pb--50 pb__md--80">
+        <div class="container">
+            <div class="row">
+                <div class="semister-fee__content" data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="3000">
+                    <h5 class="rts-section-title">Flat Rate (Undergraduate)</h5>
+                    <p class="rt-regular">FALL 2023 - SPPING 2024</p>
+                    <!-- tab item -->
+                    <div class="rts-fee-chart">
+                        <div class="rts-fee-chart__tab">
+                            <nav>
+                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                    <button class="nav-link active" id="undergrade-1-tab" data-bs-toggle="tab" data-bs-target="#undergrade-1" type="button" role="tab" aria-controls="undergrade-1" aria-selected="true">Undergraduate Tuition </button>
+                                    <button class="nav-link" id="grade-tution-2-tab" data-bs-toggle="tab" data-bs-target="#grade-tution-2" type="button" role="tab" aria-controls="grade-tution-2" aria-selected="false">Graduate Tuition </button>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="rts-fee-chart__content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="undergrade-1" role="tabpanel" aria-labelledby="undergrade-1-tab">
+                                <table class="table">
+                                    <thead class="table-theme">
+                                        <tr>
+                                            <th>UNDERGRADUATE - Faculties </th>
+                                            <th> Flat Rate Tuition (Credits)</th>
+                                            <th>IN-STATE (Per Semester)</th>
+                                            <th>OUT-STATE (Per Semester)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="3">Business & Administration</td>
+                                            <td><span>12-20 Credits (Full-Time)</span></td>
+                                            <td>$7,245.00
+                                            </td>
+                                            <td>$12,475.00
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Education & General Fees
+                                                <span>(12-20 Credits)</span>
+                                            </td>
+                                            <td>$845.00</td>
+                                            <td>$845.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Facilities Fee <span>(12-20 credits)</span></td>
+                                            <td>$845.00</td>
+                                            <td>$245.00</td>
+                                        </tr>
+
+                                        <tr class="table-theme">
+                                            <td>Total: </td>
+                                            <td></td>
+                                            <td>$8,335.00</td>
+                                            <td>$13,565.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="3">Computer Science</td>
+                                            <td><span>12-20 Credits (Full-Time)</span></td>
+                                            <td>$7,245.00
+                                            </td>
+                                            <td>$12,475.00
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Education & General Fees
+                                                <span>(12-20 Credits)</span>
+                                            </td>
+                                            <td>$845.00</td>
+                                            <td>$845.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Facilities Fee <span>(12-20 credits)</span></td>
+                                            <td>$845.00</td>
+                                            <td>$245.00</td>
+                                        </tr>
+                                        <tr class="table-theme border-none">
+                                            <td>Total: </td>
+                                            <td></td>
+                                            <td>$8,335.00</td>
+                                            <td>$13,565.00</td>
+                                        </tr>
+                                        <tr class="table-theme-theme">
+                                            <td>Other Fees Per Semester</td>
+                                            <td>Non-Matriculated Student <br>
+                                                Fee (if applicable)</td>
+                                            <td>$65.00</td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="tab-pane fade" id="grade-tution-2" role="tabpanel" aria-labelledby="grade-tution-2-tab">
+                                <table class="table">
+                                    <thead class="table-theme">
+                                        <tr>
+                                            <th>UNDERGRADUATE - Faculties </th>
+                                            <th> Flat Rate Tuition (Credits)</th>
+                                            <th>IN-STATE (Per Semester)</th>
+                                            <th>OUT-STATE (Per Semester)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="3">Business & Administration</td>
+                                            <td><span>12-20 Credits (Full-Time)</span></td>
+                                            <td>$7,245.00
+                                            </td>
+                                            <td>$12,475.00
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Education & General Fees
+                                                <span>(12-20 Credits)</span>
+                                            </td>
+                                            <td>$845.00</td>
+                                            <td>$845.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Facilities Fee <span>(12-20 credits)</span></td>
+                                            <td>$845.00</td>
+                                            <td>$245.00</td>
+                                        </tr>
+
+                                        <tr class="table-theme">
+                                            <td>Total: </td>
+                                            <td></td>
+                                            <td>$8,335.00</td>
+                                            <td>$13,565.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="3">Computer Science</td>
+                                            <td><span>12-20 Credits (Full-Time)</span></td>
+                                            <td>$7,245.00
+                                            </td>
+                                            <td>$12,475.00
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Education & General Fees
+                                                <span>(12-20 Credits)</span>
+                                            </td>
+                                            <td>$845.00</td>
+                                            <td>$845.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Facilities Fee <span>(12-20 credits)</span></td>
+                                            <td>$845.00</td>
+                                            <td>$245.00</td>
+                                        </tr>
+                                        <tr class="table-theme border-none">
+                                            <td>Total: </td>
+                                            <td></td>
+                                            <td>$8,335.00</td>
+                                            <td>$13,565.00</td>
+                                        </tr>
+                                        <tr class="table-theme-theme">
+                                            <td>Other Fees Per Semester</td>
+                                            <td>Non-Matriculated Student <br>
+                                                Fee (if applicable)</td>
+                                            <td>$65.00</td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- second part -->
+                <div class="semister-fee__content mt--80 v_2" data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="3000">
+                    <h5 class="rts-section-title">Per Credit Rate (Undergraduate)</h5>
+                    <!-- tab item -->
+                    <div class="rts-fee-chart">
+                        <div class="rts-fee-chart__tab">
+                            <nav>
+                                <div class="nav nav-tabs" id="nav-tab2" role="tablist">
+                                    <button class="nav-link active" id="undergrade-tab" data-bs-toggle="tab" data-bs-target="#undergrade" type="button" role="tab" aria-controls="undergrade" aria-selected="true">FALL 2023 - SPPING 2024</button>
+                                    <button class="nav-link" id="grade-tution-tab" data-bs-toggle="tab" data-bs-target="#grade-tution" type="button" role="tab" aria-controls="grade-tution" aria-selected="false">Summer 2023</button>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="rts-fee-chart__content" id="nav-tabContent2">
+                            <div class="tab-pane fade show active" id="undergrade" role="tabpanel" aria-labelledby="undergrade-tab">
+                                <table class="table">
+                                    <thead class="table-theme">
+                                        <tr>
+                                            <td>UNDERGRADUATE - Per Credit Rate</td>
+                                            <td> IN-STATE (Per Semester)</td>
+                                            <td>OUT-STATE (Per Semester)</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Tuition Per Credit</td>
+                                            <td>$645.00</td>
+                                            <td>$975.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Education & General Fees
+                                                <span>(Per Credits)</span>
+                                            </td>
+                                            <td>$845.00</td>
+                                            <td>$845.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Facilities Fee <span>(12-20 credits)</span></td>
+                                            <td>$845.00</td>
+                                            <td>$245.00</td>
+                                        </tr>
+                                        <tr class="table-theme">
+                                            <td>Total: </td>
+                                            <td>$8,335.00</td>
+                                            <td>$13,565.00</td>
+                                        </tr>
+                                        <tr class="table-theme-theme">
+                                            <td>Other Fees Per Semester</td>
+                                            <td>Non-Matriculated Student <br>
+                                                    Fee (if applicable)</td>
+                                            <td>$65.00</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="tab-pane fade" id="grade-tution" role="tabpanel" aria-labelledby="grade-tution-tab">
+                                <table class="table">
+                                    <thead class="table-theme">
+                                        <tr>
+                                            <td>UNDERGRADUATE - Per Credit Rate</td>
+                                            <td> IN-STATE (Per Semester)</td>
+                                            <td>OUT-STATE (Per Semester)</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Tuition Per Credit</td>
+                                            <td>$645.00</td>
+                                            <td>$975.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Education & General Fees
+                                                <span>(Per Credits)</span>
+                                            </td>
+                                            <td>$845.00</td>
+                                            <td>$845.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Facilities Fee <span>(12-20 credits)</span></td>
+                                            <td>$845.00</td>
+                                            <td>$245.00</td>
+                                        </tr>
+                                        <tr class="table-theme">
+                                            <td>Total: </td>
+                                            <td>$8,335.00</td>
+                                            <td>$13,565.00</td>
+                                        </tr>
+                                        <tr class="table-theme-theme">
+                                            <td>Other Fees Per Semester</td>
+                                            <td>Non-Matriculated Student <br>
+                                                    Fee (if applicable)</td>
+                                            <td>$65.00</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- tution fee end -->
+
+    <!-- reasearch area -->
+    <section class="rts-research-section rts-section-padding pt--50" data-aos="fade-up" data-aos-duration="3000">
+        <div class="container">
+            <div class="row">
+                <div class="rts-research-section__content">
+                    <div class="rts-section">
+                        <h3 class="rts-section-title" data-aos="fade-up"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
+                            Filter by topics such as end-of-life care, palliative care, research methodology,
+                            biostatistics, and healthcare policy.
+                        </h3>
+                        <p class="description" data-aos="fade-up"
+                        data-aos-easing="linear"
+                        data-aos-duration="2500">Listen to or watch expert interviews with healthcare professionals,
+                            researchers, and advocates discussing challenges and innovations in end-of-life care.
+                            Tune into our podcast series where we discuss the latest trends and issues in healthcare,
+                            research, and policy.
+                        </p>
+                    </div>
+                </div>
+                <!-- research item -->
+                <div class="research__items">
+                    <!-- apply content -->
+                    <div class="row justify-content-sm-center justify-content-md-start g-5">
+                        <div class="col-lg-4 col-md-6 col-sm-11">
+                            <div class="research-procedure" data-aos="fade-down"
+                            data-aos-easing="linear"
+                            data-aos-duration="1500">
+                                <div class="research-image">
+                                    <img src="assets/images/logo/YouTube Thumbnail (1).png" alt="application-thumb">
+                                </div>
+                                <div class="rt-serial">01</div>
+                                <div class="icon">
+                                    <img src="assets/images/icon/14.svg" alt="">
+                                </div>
+                                <a href="#">Biomedical Research</a>
+                                <p>Genomic Medicine: Investigating the role of genetics in health and disease to
+                                    personalize medical treatments.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-11">
+                            <div class="research-procedure primary-style" data-aos="fade-down"
+                            data-aos-easing="linear"
+                            data-aos-duration="2500">
+                                <div class="research-image">
+                                    <img src="assets/images/logo/YouTube Thumbnail (2).png" alt="application-thumb">
+                                </div>
+                                <div class="rt-serial">02</div>
+                                <div class="icon">
+                                    <img src="assets/images/icon/15.svg" alt="">
+                                </div>
+                                <a href="#">Clinical Trials</a>
+                                <p>Conducting controlled experiments to the safety and efficacy of new medical drugs, or
+                                    interventions.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-11">
+                            <div class="research-procedure" data-aos="fade-down"
+                            data-aos-easing="linear"
+                            data-aos-duration="3000">
+                                <div class="research-image">
+                                    <img src="assets/images/logo/YouTube Thumbnail (3).png" alt="application-thumb">
+                                </div>
+                                <div class="rt-serial">03</div>
+                                <div class="icon">
+                                    <img src="assets/images/icon/16.svg" alt="">
+                                </div>
+                                <a href="#">Public Health Research</a>
+                                <p>Addressing population-level health issues, studying epidemiology, preventive
+                                    measures, and health policy.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- research text -->
+                <div class="research__text">
+                    <div class="research__text--single" data-aos="fade-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="1000">
+                        <h5 class="rts-section-title">Exploration of Human Health</h5>
+                        <p class="description">Delving into the intricacies of the human body, Medicine Research seeks
+                            to understand the fundamental processes governing health. From decoding the complexities of
+                            our genetic makeup to scrutinizing cellular interactions, researchers illuminate the
+                            pathways to well-being.</p>
+                    </div>
+                    <div class="research__text--single" data-aos="fade-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="2000">
+                        <h5 class="rts-section-title">Translating Discoveries to Care:</h5>
+                        <p class="description">Beyond the laboratory bench, Medicine Research is about translation. It's
+                            about taking cutting-edge discoveries and transforming them into tangible treatments and
+                            interventions. Bridging the gap between theory and practice, researchers strive to make a
+                            real-world impact on patient outcomes.</p>
+                    </div>
+                    <div class="research__text--single" data-aos="fade-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="3000">
+                        <h5 class="rts-section-title">Collaboration and Interdisciplinary Insights:</h5>
+                        <p class="description">In the spirit of progress, Medicine Research thrives on collaboration.
+                            Researchers from diverse backgrounds—clinicians, scientists, technologists, and
+                            ethicists—come together to pool their expertise, fostering interdisciplinary insights that
+                            drive innovation forward.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- reasearch area end-->
+
+    <!-- newsletter -->
+    <div class="rts-newsletter v_1 rts-cta-background rts__white">
+        <div class="container" data-aos="fade-down" data-aos-duration="3000">
+            <div class="row">
+                <div class="col-12">
+                    <div class="rts-newsletter-box" style="background-image: url(assets/images/newsletter/bg-1.jpg);">
+                        <div class="rts-newsletter-box-content">
+                            <h4 class="newsletter-title">Subscribe to Our Newsletter
+                            </h4>
+                            <div class="newsletter-form">
+                            <form action="#">
+                                <a href="https://acreol.us14.list-manage.com/subscribe?u=11c27285450121d2d3216bf4d&id=b099609838" class="rts-nbg-btn btn-arrow">Subscribe <span><i
+                                            class="fa-sharp fa-regular fa-arrow-right"></i></span></a>
+                            </form>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- newsletter end -->
+
+    <!-- footer start -->
+    <footer class="rts-footer v_2 pt--100 pb--100">
+        <div class="container" data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="3000">
+            <div class="row gy-5 gy-lg-0">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="rts-footer-widget w-320">
+                        <a href="index.html" class="d-block rts-footer-logo mb--40">
+                            <img src="assets/images/logo/AGE.png" alt="ACREOL">
+                        </a>
+                        <p>
+                            ACREOL is a Rwanda-based non-profit dedicated to improving healthcare and end-of-life care
+                            across Africa.
+                        </p>
+                        <div class="rts-contact-link">
+                            <a href="mailto:contact@reacthemes.com"><i class="fa-sharp fa-light fa-location-dot"></i>
+                                4 KK 3 Ave, Kigali (Kicukiro_Sonatubes) - Rwanda </a>
+                            <a href="callto:121"><i class="fa-thin fa-phone"></i> +250 788 415 225</a>
+
+                        </div>
+                        <div class="footer__widget--social">
+                            <ul class="social">
+                                <li class="social__link"><a href="https://www.facebook.com/p/ACREOL-African-Center-for-Research-on-End-of-Life-Care-100064850766162/?wtsid=rdr_048yGTs1LbmF5A0RG "><i class="fa-brands fa-facebook"></i></a></li>
+                                <li class="social__link"><a href="https://www.instagram.com/acreolglobal?igsh=MTduMzl1OHljcGV1Mw%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li class="social__link"><a href="https://x.com/acreolglobal?s=21&t=nOP1x1R61HUvRpDmIBo59w "><i class="fa-brands fa-x-twitter"></i></a></li>
+                                <li class="social__link"><a href="https://www.youtube.com/@AcreolGlobal"><i class="fa-brands fa-youtube"></i></a></li>
+                                <li class="social__link"><a href="https://www.linkedin.com/company/acreol-global/ "><i class="fa-brands fa-linkedin"></i></a></li>
+                                <li class="social__link"><a href="https://www.tiktok.com/@acreolglobal?_t=ZM-8tepxolSjsj&_r=1"><i class="fa-brands fa-tiktok"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="rts-footer-widget ">
+                        <h6 class="rt-semi">Quick Links</h6>
+                        <div class="rts-footer-menu">
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Our Impact</a></li>
+                                <li><a href="#">Campus life</a></li>
+                                <li><a href="#">Activities</a></li>
+                                <li><a href="#">Projects</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-4">
+                    <div class="rts-footer-widget ml--30">
+                        <h6 class="rt-semi">Get Involved</h6>
+                        <div class="rts-footer-menu">
+                            <ul>
+                                <li><a href="#">Job Openings </a></li>
+                                <li><a href="#">Trainings</a></li>
+                                <li><a href="#">Alumni</a></li>
+                                <li><a href="#">Our Team</a></li>
+                                <li><a href="#">Events</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="rts-footer-widget ml--30">
+                        <h6 class="rt-semi">Recent Blog</h6>
+                        <div class="rts-post-widget">
+                            <ul class="list-unstyled">
+                                <li class="single-post">
+                                    <a href="#" class="blog-thumb">
+                                        <img src="assets/images/blog/blog (1).jpeg" alt="latest post">
+                                    </a>
+                                    <div class="post-content">
+                                        <span class="rt-date">October 2, 2025</span>
+                                        <a href="#">
+                                            Avoid These 4 Common When Managing Remote Teams
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="single-post">
+                                    <a href="blog-details.html" class="blog-thumb">
+                                        <img src="assets/images/blog/blog (2).jpg" alt="latest post">
+                                    </a>
+                                    <div class="post-content">
+                                        <span class="rt-date">January 29, 2025</span>
+                                        <a href="blog-details.html">
+                                            Avoid These 4 Common When Managing Remote Teams
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="rts-footer-copy-right v_1">
+        <div class="container">
+            <div class="row">
+                <div class="rt-center">
+                    <p class="--p-xs">Copyright &copy; 2025 ACREOL - All Rights Reserved. Designed by <a
+                            href="https://www.theclickcreations.com/">The Click Creations</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer end -->
+
+    <!-- offcanvase menu -->
+    <!-- header style two -->
+    <div id="side-bar" class="side-bar">
+        <button class="close-icon-menu"><i class="far fa-times"></i></button>
+        <!-- inner menu area desktop start -->
+        <div class="inner-main-wrapper-desk">
+            <div class="thumbnail">
+                <img src="assets/images/logo/AG.png" alt="ACREOL">
+            </div>
+            <div class="inner-content">
+                <p class="disc">
+                    Join ACREOL and make an impact. Connect, grow, and drive change with us!
+                </p>
+                <!-- offcanvase banner -->
+                <div class="offcanvase__banner mt--50">
+                    <div class="offcanvase__banner--content">
+                        <img src="assets/images/alumni/offcanvase.png" alt="offcanvase">
+                        <a href="partnership.html" class="rts-theme-btn">Apply Now</a>
+                    </div>
+                </div>
+                <div class="offcanvase__info">
+                    <div class="offcanvase__info--content">
+                        <a href="callto:+61485826710"><span><i class="fa-sharp fa-light fa-phone"></i></span>
+                            +250 788 415 225</a>
+                        <a href="#"><span><i class="fa-sharp fa-light fa-location-dot"></i></span>
+                            4 KK 3 Ave, Kigali (Kicukiro_Sonatubes) - Rwanda</a>
+                        <div class="offcanvase__info--content--social">
+                            <p class="title">Follow Us:</p>
+                            <div class="social__links">
+                                <a href="https://www.facebook.com/p/ACREOL-African-Center-for-Research-on-End-of-Life-Care-100064850766162/?wtsid=rdr_048yGTs1LbmF5A0RG "><i class="fa-brands fa-facebook"></i></a>     
+                                <a href="https://www.instagram.com/acreolglobal?igsh=MTduMzl1OHljcGV1Mw%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>                                               
+                                <a href="https://x.com/acreolglobal?s=21&t=nOP1x1R61HUvRpDmIBo59w "><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="https://www.youtube.com/@AcreolGlobal"><i class="fa-brands fa-youtube"></i></a>
+                                <a href="https://www.linkedin.com/company/acreol-global/ "><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://www.tiktok.com/@acreolglobal?_t=ZM-8tepxolSjsj&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- mobile menu area start -->
+        <div class="mobile-menu-main">
+            <nav class="nav-main mainmenu-nav mt--30">
+                <ul class="mainmenu metismenu" id="mobile-menu-active">
+
+                    <li class="">
+                        <a href="#" class="main"><b>Home</b></a>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="#" class="main"><b>About us</b></a>
+                        <ul class="submenu mm-collapse">
+                            <li><a class="mobile-menu-link" href="who.html">Who we are</a></li>
+                            <li><a class="mobile-menu-link" href="team.html">Out Team</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="#" class="main"><b>Our
+                            portfolio</b></a>
+                        <ul class="submenu mm-collapse">
+                            <li><a class="mobile-menu-link" href="programs.html">Programs</a></li>
+                            <li><a class="mobile-menu-link" href="project.html">Projects</a></li>
+                            <li><a class="mobile-menu-link" href="activity.html">Activities</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="#">
+                        <a href="source.html" class="main"><b>Resource Hub</b></a>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="#" class="main"><b>Careers</b></a>
+                        <ul class="submenu mm-collapse">
+                            <li><a class="mobile-menu-link" href="jobs.html">Job Openings</a></li>
+                            <li><a class="mobile-menu-link" href="mentorship.html">Alumni & Mentorship</a></li>
+                            <li><a class="mobile-menu-link" href="intern.html">Internship Opportunities</a></li>
+                            <li><a class="mobile-menu-link" href="collaboration.html">Volunteer and Collaboration Opportunities</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-droupdown">
+                       <a href="#" class="main"><b>Events & Media Center</b></a>
+                        <ul class="submenu mm-collapse">
+                            <li><a class="mobile-menu-link" href="event.html">Upcoming Events</a></li>
+                            <li><a class="mobile-menu-link" href="#">Past Events</a></li>
+                            <li><a class="has-droupdown" href="#"><b>Media Center</b></a>
+                                <ul class="submenu mm-collapse">
+                                    <li><a class="mobile-menu-link" href="gallery.html">Photo galleries</a></li>
+                                    <li><a class="mobile-menu-link" href="#">Videos</a></li>
+                                    <li><a href="#">Podcasts</a></li>
+                                    <li class="has-child"><a href="#">News and Announcements</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="impact.html" class="main"><b>Our impact</b></a>
+                    </li>
+                    <li>
+                        <a href="partnership.html" class="main"><b>Partnerships</b></a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="main"><b>Contact us</b></a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="offcanvase__info--content mt--30">
+                <a href="callto:+61485826710"><span><i class="fa-sharp fa-light fa-phone"></i></span>+250 788 415 225</a>
+                <a href="#"><span><i class="fa-sharp fa-light fa-location-dot"></i></span>4 KK 3 Ave, Kigali (Kicukiro_Sonatubes) - Rwanda</a>
+                <div class="offcanvase__info--content--social">
+                    <p class="title">Follow Us:</p>
+                    <div class="social__links">
+                        <a href="https://www.facebook.com/p/ACREOL-African-Center-for-Research-on-End-of-Life-Care-100064850766162/?wtsid=rdr_048yGTs1LbmF5A0RG "><i class="fa-brands fa-facebook"></i></a>     
+                        <a href="https://www.instagram.com/acreolglobal?igsh=MTduMzl1OHljcGV1Mw%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>                                               
+                        <a href="https://x.com/acreolglobal?s=21&t=nOP1x1R61HUvRpDmIBo59w "><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.youtube.com/@AcreolGlobal"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.linkedin.com/company/acreol-global/ "><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.tiktok.com/@acreolglobal?_t=ZM-8tepxolSjsj&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- mobile menu area end -->
+    </div>
+    <!-- header style two End -->
+
+    <div class="search-input-area">
+        <div class="container">
+            <div class="search-input-inner">
+                <div class="input-div">
+                    <input class="search-input autocomplete ui-autocomplete-input" type="text"
+                        placeholder="Search by keyword or #" autocomplete="off">
+                    <button><i class="far fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+        <div id="close" class="search-close-icon"><i class="far fa-times"></i></div>
+    </div>
+    <!-- rts backto top start -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+                style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
+            </path>
+        </svg>
+    </div>
+    <!-- rts back to top end -->
+    <div id="anywhere-home" class="">
+    </div>
+
+
+    <!-- scripts -->
+    <!-- jquery js -->
+    <script src="assets/js/vendor/jquery.min.js"></script>
+    <!-- bootstrap 5.0.2 -->
+    <script src="assets/js/plugins/bootstrap.min.js"></script>
+    <!-- jquery ui js -->
+    <script src="assets/js/vendor/jquery-ui.js"></script>
+    <!-- wow js -->
+    <script src="assets/js/vendor/waw.js"></script>
+    <!-- mobile menu -->
+    <script src="assets/js/vendor/metismenu.js"></script>
+    <!-- magnific popup -->
+    <script src="assets/js/vendor/magnifying-popup.js"></script>
+    <!-- swiper JS 10.2.0 -->
+    <script src="assets/js/plugins/swiper.js"></script>
+    <!-- counterup -->
+    <script src="assets/js/plugins/counterup.js"></script>
+    <script src="assets/js/vendor/waypoint.js"></script>
+    <!-- isotop mesonary -->
+    <script src="assets/js/plugins/isotop.js"></script>
+    <script src="assets/js/plugins/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/plugins/sticky-sidebar.js"></script>
+    <script src="assets/js/plugins/resize-sensor.js"></script>
+    <script src="assets/js/plugins/twinmax.js"></script>
+    <!-- dymanic Contact Form -->
+    <script src="assets/js/plugins/contact.form.js"></script>
+    <script src="assets/js/plugins/nice-select.min.js"></script>
+    <!-- main Js -->
+    <script src="assets/js/main.js"></script>
+    <!-- animate on scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>

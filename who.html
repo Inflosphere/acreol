@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who we are - Acreol</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/icon 2.svg">
+    <!-- animate css -->
+    <link rel="stylesheet" href="assets/css/plugins/animate.min.css">
+    <!-- fontawesome 6.4.2 -->
+    <link rel="stylesheet" href="assets/css/plugins/fontawesome.min.css">
+    <!-- bootstrap min css -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <!-- swiper Css 10.2.0 -->
+    <link rel="stylesheet" href="assets/css/plugins/swiper.min.css">
+    <!-- Bootstrap 5.0.2 -->
+    <link rel="stylesheet" href="assets/css/vendor/magnific-popup.css">
+    <!-- metismenu scss -->
+    <link rel="stylesheet" href="assets/css/vendor/metismenu.css">
+    <!-- nice select js -->
+    <link rel="stylesheet" href="assets/css/plugins/nice-select.css">
+    <link rel="stylesheet" href="assets/css/plugins/jquery-ui.css">
+    <!-- custom style css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- animate on scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+    <script>
+        var cursor = document.querySelector(".cursor");
+        var cursor2 = document.querySelector(".cursor2");
+        document.addEventListener("mousemove",function(e){
+        cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+        });
+    </script>
+    <!-- header area start -->
+    <header class="header header__sticky v__1">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="header__wrapper">
+                        <div class="header__logo">
+                            <a href="index.html" class="header__logo--link">
+                                <img src="assets/images/logo/AG.png" alt="ACREOL">
+                            </a>
+                        </div>
+                        <div class="header__menu">
+                            <div class="navigation">
+                                <nav class="navigation__menu">
+                                    <ul>
+                                        <li class="navigation__menu--item">
+                                            <a href="index.html" class="navigation__menu--item__link">Home</a>
+                                        </li>
+                                        <li class="navigation__menu--item has-child has-arrow">
+                                            <a href="#" class="navigation__menu--item__link">About us</a>
+                                            <ul class="submenu sub__style">
+                                                <li><a href="who.html">Who we are</a></li>
+                                                <li><a href="team.html">Out Team</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="navigation__menu--item has-child has-arrow">
+                                            <a href="javascript:void(0);" class="navigation__menu--item__link">Our
+                                                portfolio</a>
+                                            <ul class="submenu sub__style">
+                                                <li><a href="programs.html">Programs</a></li>
+                                                <li><a href="project.html">Projects</a></li>
+                                                <li><a href="activity.html">Activities</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="navigation__menu--item"><a href="source.html"
+                                                class="navigation__menu--item__link">Resource Hub</a>
+                                        </li>
+                                        <li class="navigation__menu--item has-child has-arrow">
+                                            <a href="#" class="navigation__menu--item__link">Careers</a>
+                                            <ul class="submenu sub__style">
+                                                <li><a href="jobs.html">Job Openings</a></li>
+                                                <li><a href="mentorship.html">Alumni & Mentorship</a></li>
+                                                <li><a href="intern.html">Internship Opportunities</a></li>
+                                                <li><a href="collaboration.html">Volunteer and Collaboration Opportunities</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="navigation__menu--item has-child has-arrow">
+                                            <a href="javascript:void(0);" class="navigation__menu--item__link">Events & Media Center</a>
+                                            <ul class="submenu sub__style">
+                                                <li><a href="event.html">Upcoming Events</a></li>
+                                                <li><a href="#">Past Events</a></li>
+                                                <li class="has-child has-arrow">
+                                                    <a href="#">Media Center</a>
+                                                    <ul class="sub__style">
+                                                        <li><a class="mobile-menu-link" href="gallery.html">Photo galleries</a></li>
+                                                        <li><a class="mobile-menu-link" href="#">Videos</a></li>
+                                                        <li><a href="#">Podcasts</a></li>
+                                                        <li class="has-child"><a href="#">News and Announcements</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="navigation__menu--item">
+                                            <a href="impact.html" class="navigation__menu--item__link">Our impact</a>
+                                        </li>
+                                        <li class="navigation__menu--item">
+                                            <a href="partnership.html" class="navigation__menu--item__link">Partnerships</a>
+                                        </li>
+
+                                        <li class="navigation__menu--item">
+                                            <a href="contact.html" class="navigation__menu--item__link">Contact us</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="header__right">
+                            <div class="header__right--item">
+                                <!-- <div id="langSwitcher" class="lang__trigger">
+                                    <span class="selected__lang">English</span>
+                                    <i class="fa-light fa-globe"></i>
+                                    <div class="translate__lang">
+                                        <ul>
+                                            <li><a href="#" class="active">English</a></li>
+                                            <li><a href="#">French</a></li>
+                                            <li><a href="#">Spanish</a></li>
+                                            <li><a href="#">Romanian</a></li>
+                                        </ul>
+                                    </div>
+                                </div> -->
+                                <!-- <div id="search-btn" class="search__trigger">
+                                    <i class="fa-sharp fa-light fa-magnifying-glass"></i>
+                                </div> -->
+                                <div id="menu-btn" class="menu__trigger">
+                                    <img src="assets/images/icon/menu-1-svgrepo-com.svg" alt="bar">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header area end -->
+    <!-- BREADCRUMB AREA -->
+    <section class="rts-breadcrumb breadcrumb-height breadcumb-bg"
+        style="background-image: url(assets/images/blog/blog\ \(4\).jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb-content" data-aos="zoom-in" data-aos-duration="3000">
+                        <ul class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Who we are</li>
+                        </ul>
+                        <h2 class="section-title">Who we are</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BREADCRUMB AREA END -->
+    <!-- about university -->
+    <section class="rts-about-university rts-section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="rts-section">
+                    <div class="col-lg-4 col-md-5">
+                        <h3 class="rts-section-title" data-aos="fade-right"
+                        data-aos-duration="3000">About ACREOL</h3>
+                    </div>
+                    <div class="col-lg-8 col-md-7">
+                        <p class="rts-section-description" data-aos="fade-left" data-aos-duration="3000">
+                            The African Center for Research on End-of-Life Care is a non-profit organization 
+                            located in Rwanda dedicated to improving health care and end-of-life care in Africa through 
+                            research, education, and advocacy.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-5 justify-content-md-center justify-content-start">
+                <div class="col-lg-7 col-xl-8 col-md-11" data-aos="fade-left" data-aos-duration="3000">
+                    <div class="rts-about-section">
+                        <img src="assets/images/blog/blog (4).jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-5 col-xl-4 col-md-11">
+                    <div class="rts-about-details">
+                        <div class="single-about-info" data-aos="fade-right" data-aos-duration="1000">
+                            <div class="content">
+                                <h3 class="title">5000+</h3>
+                                <img src="assets/images/icon/11.svg" alt="">
+                            </div>
+                            <div class="desc">
+                                <p>Healthcare Professionals Trained</p>
+                            </div>
+                        </div>
+                        <div class="single-about-info" data-aos="fade-right" data-aos-duration="2000">
+                            <div class="content">
+                                <h3 class="title">3,200+</h3>
+                                <img src="assets/images/icon/12.svg" alt="">
+                            </div>
+                            <div class="desc">
+                                <p>Community Members Reached</p>
+                            </div>
+                        </div>
+                        <div class="single-about-info" data-aos="fade-right" data-aos-duration="4000">
+                            <div class="content">
+                                <h3 class="title">100+</h3>
+                                <img src="assets/images/icon/13.svg" alt="">
+                            </div>
+                            <div class="desc">
+                                <p>Workshops & Seminars Conducted</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about university end -->
+
+    <!-- history -->
+    <div class="rts-history">
+        <div class="container">
+            <div class="row g-5 justify-content-md-center justify-content-start align-items-center">
+                <div class="col-lg-6 col-md-11">
+                    <div class="rts-history-image">
+                        <img src="assets/images/about/about (4).png" alt="history" data-aos="zoom-out-up">
+                    </div>
+                    <p class="mt-4" data-aos="fade-right" data-aos-duration="3000">
+                        “Palliative care was generally understood exclusively as end-of-life care, only for the dying. People called me ‘the gravedigger’, 
+                        considering the people I was caring for as already condemned. I told them, ‘the gravedigger sees patients five minutes after they die, 
+                        I see them before’. But, of course, there are two essential aspects of palliative care. Terminal patients in any case deserve our attention 
+                        and a better quality of life as they die; and it is supportive care for people who we expect to survive but are going through treatment and in pain.”
+                    </p>
+                    <h4 class="rts-section-title mb--40 mt-5" data-aos="fade-right" data-aos-duration="3000">How ACREOL Global came to life</h4>
+                    <p data-aos="fade-right" data-aos-duration="3000">
+                        Dr Ntizimira's work, supported by the Rwandan government and international partners, has led to the training of over 1,500 healthcare 
+                        providers in cancer prevention and palliative care. "Now morphine is more readily available and prescribed, and the quality of life of 
+                        patients is considerably better," he says, demonstrating the potential for progress in low-resource settings with strong political support 
+                        and dedicated healthcare professionals.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-md-11">
+                    <div class="rts-history-section" data-aos="fade-left" data-aos-duration="3000">
+                        <h4 class="rts-section-title mb--40">Our Story</h4>
+                        <p>
+                            Initially aspiring to be a surgeon, Dr. Christian NTIZIMIRA’s career trajectory shifted dramatically 
+                            after a profound encounter with a young patient dying in pain without medication and with the patient's mother, 
+                            who knelt before him asking for help.
+                            “I was really shocked. Culturally, as a Rwandan, an older adult should not be kneeling before a younger person, especially 
+                            not to ask me to do what I am supposed to do – and could not. Like many physicians, I feared to prescribe morphine at that time 
+                            due to the myths surrounding it, the fears that if you prescribe it, the patient will die and you will go to prison," 
+                            Dr Ntizimira explains. “And in any case its availability was severely limited. I wondered, does it make sense to be a surgeon 
+                            if such vulnerable people do not get any support?” This was in 2009 and the government was organising the first palliative 
+                            care training, which Dr Ntizimira attended. He then completed a fellowship in palliative care at Harvard Medical School in 2011, 
+                            as Rwanda was launching the first African national policy on palliative care to improve the quality of life of patients, particularly 
+                            those at advanced stages of HIV/AIDS.
+                            <span class="d-block mb--30"></span>
+                            This policy was later integrated into the national cancer control plan and the non-communicable diseases (NCD) strategic plan, with a focus on the accessibility and availability of morphine.
+                            When Dr Ntizimira began his advocacy, there was a widespread lack of awareness and understanding among healthcare professionals and the general population about the need for palliative care.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div> <br><br>
+    </div>
+    <!-- history end-->
+
+
+    <div class="rts-funfact rts-section-padding pb-0">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 ">
+                    <div class="rts-funfact-wrapper">
+                        <div class="single-cta-item">
+                            <h2 class="single-cta-item__title">90%</h2>
+                            <p>Training Completion Rate</p>
+                        </div>
+                        <div class="single-cta-item">
+                            <h2 class="single-cta-item__title">Top 10</h2>
+                            <p>Leaders in Palliative Care Education</p>
+                        </div>
+                        <div class="single-cta-item">
+                            <h2 class="single-cta-item__title">No. 1</h2>
+                            <p>Care Awareness in Rwanda </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- content -->
+    <div class="rts-faculty-details rts-section-padding pt-2 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="border-top my-60"></div>
+                <div class="row align-items-center justify-content-md-center">
+                    <div class="col-lg-6 col-md-11">
+                        <div class="faculty-content-text me-5" data-aos="fade-right" data-aos-duration="2000">
+                            <h4 class="font-32 mb-4">Mission</h4>
+                            <p>To enhance healthcare outcomes in Africa by providing high-quality education, training, 
+                                and awareness on palliative care, life-threatening illnesses, and end-of-life care. 
+                                We strive to empower healthcare professionals, caregivers, and communities with the 
+                                knowledge and skills needed to offer compassionate and effective support.</p>
+                            <h4 class="font-32 mb-4 mt-5">Vision</h4>
+                            <p>A future where every patient facing life-threatening illnesses in Africa receives dignified, 
+                                compassionate, and well-informed care, supported by a healthcare system that values education, 
+                                innovation, and community-driven solutions.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-11" data-aos="zoom-in" data-aos-duration="3000">
+                        <figure class="mt-5 mt-lg-0">
+                            <img class="mw-100" src="assets/images/logo/YouTube Thumbnail (3).png" alt="">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <br><br>
+    <!-- content end -->
+
+    <!-- mission -->
+    <div class="row justify-content-center rt-center">
+        <div class="rts-section mb--50">
+            <h2 class="rts-section-title">Our Values</h2>
+        </div>
+    </div>
+    <section class="rts-mission pt-1">
+        <div class="container">
+            <!-- mission -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="rts-timeline-section">
+                        <div class="rts-timeline-content">
+                            <div class="left-side">
+                                <div class="single-timeline-item" data-aos="fade-right" data-aos-duration="2000">
+                                    <h5 class="timeline-title">Compassion</h5>
+                                    <p> We prioritize patient-centered 
+                                        care and emotional support
+                                    </p>
+                                    <img src="assets/images/about/about (1).png" alt="">
+                                </div>
+                                <div class="single-timeline-item" data-aos="fade-right" data-aos-duration="3000">
+                                    <h5 class="timeline-title">Excellence</h5>
+                                    <p> We deliver high-quality education and training programs.
+                                    </p>
+                                    <img src="assets/images/about/about (3).png" alt="">
+                                </div>
+                            </div>
+                            <div class="separator">
+                            </div>
+                            <div class="right-side">
+                                <div class="single-timeline-item" data-aos="fade-left" data-aos-duration="2000">
+                                    <h5 class="timeline-title">Collaboration</h5>
+                                    <p> We foster partnerships with healthcare 
+                                        professionals, organizations, and communities.
+                                    </p>
+                                    <img src="assets/images/about/about (5).png" alt="">
+                                </div>
+                                <div class="single-timeline-item" data-aos="fade-left" data-aos-duration="3000">
+                                    <h5 class="timeline-title">Innovation</h5>
+                                    <p> We embrace new approaches to improve palliative 
+                                        and end-of-life care.
+                                    </p>
+                                    <img src="assets/images/about/about (2).png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <br>
+    </section>
+    <!-- mission end-->
+    <section class="rts-campus-tour rts-section-padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <h2 class="section-title rt-center mb--50">Our Palliative Seasons</h2>
+                <div class="col-12">
+                    <div class="rts-video-section height-500 mb--50">
+                        <a href="https://www.youtube.com/watch?v=DB753vglNG4"
+                            class="rts-video-section-player popup-video video-btn">
+                            <i class="fa-sharp fa-solid fa-play"></i>
+                        </a>
+                        <img src="assets/images/logo/YouTube Thumbnail.png" alt="video-bg">
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="rts-video-section-text rt-center mx-3">
+                        <p>“Art is not what you see, but what you make others see.” - Edgar Degas
+
+                            Tanguy Tangishaka sees art as a powerful form of palliative care. Through his vibrant strokes, he offers solace, creating a visual sanctuary for patients and families to escape, reflect, and heal. His work isn’t just art—it’s therapy, a silent comfort beyond words.
+                            
+                            Can we integrate art into palliative care? Can warm hues replace sterile hospital whites? Tanguy believes so. What about you?
+                        </p>
+                        <a href="#" class="mt--15 about-btn rts-nbg-btn btn-arrow">Load More <span><i
+                                    class="fa-sharp fa-regular fa-arrow-right"></i></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- brand slider -->
+    <div class="rts-brand v_1 pb--120">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-lg-12 col-md-11">
+                    <div class="rts-brand-slider swiper swiper-data" data-swiper='{
+                        "slidesPerView":6,
+                        "loop": true,
+                        "autoplay":{
+                            "delay":"3000"
+                        },
+                        "breakpoints":{
+                            "320":{
+                                "slidesPerView": 3,
+                                "centeredSlides": true
+                            },
+                            "575":{
+                                "slidesPerView": 4,
+                                "centeredSlides": true
+                            },
+                            "768":{
+                                "slidesPerView": 5,
+                                "centeredSlides": true
+                            },
+                            "991":{
+                                "slidesPerView": 6,
+                                "centeredSlides": true
+                            },
+                            "1201":{
+                                "slidesPerView": 6
+                            }
+                        }
+                }'>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/logo/collabo (1).svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/logo/collabo (2).svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/logo/collabo (3).svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/logo/collabo (4).svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/logo/collabo (5).svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/logo/collabo (6).svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/logo/collabo (7).svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/logo/collabo (8).svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/logo/collabo (9).svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/logo/collabo (10).svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/logo/collabo (11).svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/logo/collabo (12).svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/logo/collabo (13).svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/logo/collabo (14).svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/logo/collabo (15).svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/logo/collabo (16).svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- brand slider end -->
+
+    <!-- footer start -->
+    <footer class="rts-footer v_2 pt--100 pb--100">
+        <div class="container" data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="700">
+            <div class="row gy-5 gy-lg-0">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="rts-footer-widget w-320">
+                        <a href="index.html" class="d-block rts-footer-logo mb--40">
+                            <img src="assets/images/logo/AGE.png" alt="ACREOL">
+                        </a>
+                        <p>
+                            ACREOL is a Rwanda-based non-profit dedicated to improving healthcare and end-of-life care
+                            across Africa.
+                        </p>
+                        <div class="rts-contact-link">
+                            <a href="mailto:contact@reacthemes.com"><i class="fa-sharp fa-light fa-location-dot"></i>
+                                4 KK 3 Ave, Kigali (Kicukiro_Sonatubes) - Rwanda </a>
+                            <a href="callto:121"><i class="fa-thin fa-phone"></i> +250 788 415 225</a>
+
+                        </div>
+                        <div class="footer__widget--social">
+                            <ul class="social">
+                                <li class="social__link"><a href="https://www.facebook.com/p/ACREOL-African-Center-for-Research-on-End-of-Life-Care-100064850766162/?wtsid=rdr_048yGTs1LbmF5A0RG "><i class="fa-brands fa-facebook"></i></a></li>
+                                <li class="social__link"><a href="https://www.instagram.com/acreolglobal?igsh=MTduMzl1OHljcGV1Mw%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li class="social__link"><a href="https://x.com/acreolglobal?s=21&t=nOP1x1R61HUvRpDmIBo59w "><i class="fa-brands fa-x-twitter"></i></a></li>
+                                <li class="social__link"><a href="https://www.youtube.com/@AcreolGlobal"><i class="fa-brands fa-youtube"></i></a></li>
+                                <li class="social__link"><a href="https://www.linkedin.com/company/acreol-global/ "><i class="fa-brands fa-linkedin"></i></a></li>
+                                <li class="social__link"><a href="https://www.tiktok.com/@acreolglobal?_t=ZM-8tepxolSjsj&_r=1"><i class="fa-brands fa-tiktok"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="rts-footer-widget ">
+                        <h6 class="rt-semi">Quick Links</h6>
+                        <div class="rts-footer-menu">
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Our Impact</a></li>
+                                <li><a href="#">Campus life</a></li>
+                                <li><a href="#">Activities</a></li>
+                                <li><a href="#">Projects</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-4">
+                    <div class="rts-footer-widget ml--30">
+                        <h6 class="rt-semi">Get Involved</h6>
+                        <div class="rts-footer-menu">
+                            <ul>
+                                <li><a href="#">Job Openings </a></li>
+                                <li><a href="#">Trainings</a></li>
+                                <li><a href="#">Alumni</a></li>
+                                <li><a href="#">Our Team</a></li>
+                                <li><a href="#">Events</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="rts-footer-widget ml--30">
+                        <h6 class="rt-semi">Recent Blog</h6>
+                        <div class="rts-post-widget">
+                            <ul class="list-unstyled">
+                                <li class="single-post">
+                                    <a href="#" class="blog-thumb">
+                                        <img src="assets/images/blog/blog (1).jpeg" alt="latest post">
+                                    </a>
+                                    <div class="post-content">
+                                        <span class="rt-date">October 2, 2025</span>
+                                        <a href="#">
+                                            Avoid These 4 Common When Managing Remote Teams
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="single-post">
+                                    <a href="blog-details.html" class="blog-thumb">
+                                        <img src="assets/images/blog/blog (2).jpg" alt="latest post">
+                                    </a>
+                                    <div class="post-content">
+                                        <span class="rt-date">January 29, 2025</span>
+                                        <a href="blog-details.html">
+                                            Avoid These 4 Common When Managing Remote Teams
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="rts-footer-copy-right v_1">
+        <div class="container">
+            <div class="row">
+                <div class="rt-center">
+                    <p class="--p-xs">Copyright &copy; 2025 ACREOL - All Rights Reserved. Designed by <a
+                            href="https://www.theclickcreations.com/">The Click Creations</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer end -->
+
+    <!-- offcanvase menu -->
+    <!-- header style two -->
+    <div id="side-bar" class="side-bar">
+        <button class="close-icon-menu"><i class="far fa-times"></i></button>
+        <!-- inner menu area desktop start -->
+        <div class="inner-main-wrapper-desk">
+            <div class="thumbnail">
+                <img src="assets/images/logo/AG.png" alt="ACREOL">
+            </div>
+            <div class="inner-content">
+                <p class="disc">
+                    Join ACREOL and make an impact. Connect, grow, and drive change with us!
+                </p>
+                <!-- offcanvase banner -->
+                <div class="offcanvase__banner mt--50">
+                    <div class="offcanvase__banner--content">
+                        <img src="assets/images/alumni/offcanvase.png" alt="offcanvase">
+                        <a href="partnership.html" class="rts-theme-btn">Apply Now</a>
+                    </div>
+                </div>
+                <div class="offcanvase__info">
+                    <div class="offcanvase__info--content">
+                        <a href="callto:+61485826710"><span><i class="fa-sharp fa-light fa-phone"></i></span>
+                            +250 788 415 225</a>
+                        <a href="#"><span><i class="fa-sharp fa-light fa-location-dot"></i></span>
+                            4 KK 3 Ave, Kigali (Kicukiro_Sonatubes) - Rwanda</a>
+                        <div class="offcanvase__info--content--social">
+                            <p class="title">Follow Us:</p>
+                            <div class="social__links">
+                                <a href="https://www.facebook.com/p/ACREOL-African-Center-for-Research-on-End-of-Life-Care-100064850766162/?wtsid=rdr_048yGTs1LbmF5A0RG "><i class="fa-brands fa-facebook"></i></a>     
+                                <a href="https://www.instagram.com/acreolglobal?igsh=MTduMzl1OHljcGV1Mw%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>                                               
+                                <a href="https://x.com/acreolglobal?s=21&t=nOP1x1R61HUvRpDmIBo59w "><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="https://www.youtube.com/@AcreolGlobal"><i class="fa-brands fa-youtube"></i></a>
+                                <a href="https://www.linkedin.com/company/acreol-global/ "><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://www.tiktok.com/@acreolglobal?_t=ZM-8tepxolSjsj&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- mobile menu area start -->
+        <div class="mobile-menu-main">
+            <nav class="nav-main mainmenu-nav mt--30">
+                <ul class="mainmenu metismenu" id="mobile-menu-active">
+
+                    <li class="">
+                        <a href="#" class="main"><b>Home</b></a>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="#" class="main"><b>About us</b></a>
+                        <ul class="submenu mm-collapse">
+                            <li><a class="mobile-menu-link" href="who.html">Who we are</a></li>
+                            <li><a class="mobile-menu-link" href="team.html">Out Team</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="#" class="main"><b>Our
+                            portfolio</b></a>
+                        <ul class="submenu mm-collapse">
+                            <li><a class="mobile-menu-link" href="programs.html">Programs</a></li>
+                            <li><a class="mobile-menu-link" href="project.html">Projects</a></li>
+                            <li><a class="mobile-menu-link" href="activity.html">Activities</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="#">
+                        <a href="source.html" class="main"><b>Resource Hub</b></a>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="#" class="main"><b>Careers</b></a>
+                        <ul class="submenu mm-collapse">
+                            <li><a class="mobile-menu-link" href="jobs.html">Job Openings</a></li>
+                            <li><a class="mobile-menu-link" href="mentorship.html">Alumni & Mentorship</a></li>
+                            <li><a class="mobile-menu-link" href="intern.html">Internship Opportunities</a></li>
+                            <li><a class="mobile-menu-link" href="collaboration.html">Volunteer and Collaboration Opportunities</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-droupdown">
+                       <a href="#" class="main"><b>Events & Media Center</b></a>
+                        <ul class="submenu mm-collapse">
+                            <li><a class="mobile-menu-link" href="event.html">Upcoming Events</a></li>
+                            <li><a class="mobile-menu-link" href="#">Past Events</a></li>
+                            <li><a class="has-droupdown" href="#"><b>Media Center</b></a>
+                                <ul class="submenu mm-collapse">
+                                    <li><a class="mobile-menu-link" href="gallery.html">Photo galleries</a></li>
+                                    <li><a class="mobile-menu-link" href="#">Videos</a></li>
+                                    <li><a href="#">Podcasts</a></li>
+                                    <li class="has-child"><a href="#">News and Announcements</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="impact.html" class="main"><b>Our impact</b></a>
+                    </li>
+                    <li>
+                        <a href="partnership.html" class="main"><b>Partnerships</b></a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="main"><b>Contact us</b></a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="offcanvase__info--content mt--30">
+                <a href="callto:+61485826710"><span><i class="fa-sharp fa-light fa-phone"></i></span>+250 788 415 225</a>
+                <a href="#"><span><i class="fa-sharp fa-light fa-location-dot"></i></span>4 KK 3 Ave, Kigali (Kicukiro_Sonatubes) - Rwanda</a>
+                <div class="offcanvase__info--content--social">
+                    <p class="title">Follow Us:</p>
+                    <div class="social__links">
+                        <a href="https://www.facebook.com/p/ACREOL-African-Center-for-Research-on-End-of-Life-Care-100064850766162/?wtsid=rdr_048yGTs1LbmF5A0RG "><i class="fa-brands fa-facebook"></i></a>     
+                        <a href="https://www.instagram.com/acreolglobal?igsh=MTduMzl1OHljcGV1Mw%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>                                               
+                        <a href="https://x.com/acreolglobal?s=21&t=nOP1x1R61HUvRpDmIBo59w "><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.youtube.com/@AcreolGlobal"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.linkedin.com/company/acreol-global/ "><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.tiktok.com/@acreolglobal?_t=ZM-8tepxolSjsj&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- mobile menu area end -->
+    </div>
+    <!-- header style two End -->
+
+    <div class="search-input-area">
+        <div class="container">
+            <div class="search-input-inner">
+                <div class="input-div">
+                    <input class="search-input autocomplete ui-autocomplete-input" type="text"
+                        placeholder="Search by keyword or #" autocomplete="off">
+                    <button><i class="far fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+        <div id="close" class="search-close-icon"><i class="far fa-times"></i></div>
+    </div>
+    <!-- rts backto top start -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+                style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
+            </path>
+        </svg>
+    </div>
+    <!-- rts back to top end -->
+    <div id="anywhere-home" class="">
+    </div>
+
+
+    <!-- scripts -->
+    <!-- jquery js -->
+    <script src="assets/js/vendor/jquery.min.js"></script>
+    <!-- bootstrap 5.0.2 -->
+    <script src="assets/js/plugins/bootstrap.min.js"></script>
+    <!-- jquery ui js -->
+    <script src="assets/js/vendor/jquery-ui.js"></script>
+    <!-- wow js -->
+    <script src="assets/js/vendor/waw.js"></script>
+    <!-- mobile menu -->
+    <script src="assets/js/vendor/metismenu.js"></script>
+    <!-- magnific popup -->
+    <script src="assets/js/vendor/magnifying-popup.js"></script>
+    <!-- swiper JS 10.2.0 -->
+    <script src="assets/js/plugins/swiper.js"></script>
+    <!-- counterup -->
+    <script src="assets/js/plugins/counterup.js"></script>
+    <script src="assets/js/vendor/waypoint.js"></script>
+    <!-- isotop mesonary -->
+    <script src="assets/js/plugins/isotop.js"></script>
+    <script src="assets/js/plugins/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/plugins/sticky-sidebar.js"></script>
+    <script src="assets/js/plugins/resize-sensor.js"></script>
+    <script src="assets/js/plugins/twinmax.js"></script>
+    <!-- dymanic Contact Form -->
+    <script src="assets/js/plugins/contact.form.js"></script>
+    <script src="assets/js/plugins/nice-select.min.js"></script>
+    <!-- main Js -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- animate on scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
